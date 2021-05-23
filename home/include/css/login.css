@@ -1,0 +1,78 @@
+
+			/* 新浪官网 样式初始化 */
+			body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+			body{background:#fff;color:#333;font-size:12px;font-family:font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;} 
+			 
+			ul,ol{list-style-type:none;} 
+			select,input,img,select{vertical-align:middle;} 
+			 
+			a{text-decoration:none;} 
+			a:link{color:#000741;} 
+			a:visited{color:#000741;} 
+			a:hover,a:active,a:focus{color:#000741;text-decoration:none;}  
+			/* 新浪官网 样式初始化 */
+			div:hover{cursor:pointer;}
+			span:hover{cursor:text;}
+			.loginborder .ac{color:black;font-weight:bold;font-size:13px}
+			.loginborder .ac:hover{color:black}
+			.fl{float: left;}
+			.fr{float: right;}
+			.ma{margin:auto}
+			.mrs{margin-right:20px;}
+			.mrm{margin-right:20px;}
+			.mlb{margin-left: 110px;}
+			.mt{margin-top: 15px;}
+			.tdl{text-decoration:underline}
+			.header{height: 100px;background-color: #F4F4F4;}
+			.headerMain{width: 1000px;height: 50px;margin: 0 auto;font-size:14px;color:#666666;}
+			.shoppingList{font-family:'aaa';font-size:30px;line-height:50px}
+			.headerLoginContent{width: 100px;height: 200px;	background-color: white;display:none;position:absolute;top:50px;z-index:50;}
+			.headerLoginContentButton{background-color: #000d42;color:white;border:1px solid #666;margin:10px auto;width:90px;height: 35x;text-align:center;display:block ;margin-bottom:10px}
+			.headerLoginContentButton a{font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;font-size:13px;line-height:35px;text-indent:2em;color:white;}
+			.headerLoginContent li{font-size:13px; line-height:26px;text-align:center;margin-bottom:5px;margin-top:5px}
+			.headerMiddle{line-height:50px}
+			.headerNav{height: 50px;background:#AEC9E7;margin: 0 auto;}
+			.headerNavPicture{height: 50px;width: 960px;margin: 0 auto;vertical-align:middle;}
+			.headerNavPicture img{vertical-align:middle;}
+			.
+			.main{margin-top: 10px;}
+
+			.headerSearch{width: 1000px;height: 40px;margin:15px auto;position:relative}
+			.headSearchBorder{float: right;border:1px solid #A9A9A9;}
+			.headerSearch input{float:right;width: 170px;height: 40px;border:0px solid white;outline:none;}
+			.headerborder:focus{outline:1px solid #A6C8FF}
+			.headerSearchPic{font-family:'aaa';font-size:30px;float: right;line-height:40px;margin-right: 10px;}
+
+			.mainNav{width: 1000px;height: 70px;margin: 0 auto;position:relative}
+			.mainNavBorder{width: 880px;height: 70px;}
+			.mainNavBorder li{float: left;margin-right: 20px;color:#000741;line-height: 70px;font:bold 16px 微软雅黑;}
+
+
+
+			/* 登录 */
+			.loginMain{width: 1010px;margin: 0 auto;}
+			.loginborder{width: 567px;margin:20px auto;min-height:500px;float: left;margin-right: 20px;}
+
+			.loginHeader{height: 20px; background-color: #D5D1CD;}
+			.LoginText{width: 246.25px;height: 25px;}
+			.login{width: 562px;height: 310px;border: 5px solid #D5D1CD;}
+
+			.login .loginLineOne{height: 30px;margin: 20px 0px 30px 50px ;}
+
+			.login li{height: 20px;margin: 20px 0px 0px 50px ;}
+
+
+			.login li a{color:#23527c}
+
+			.login li a:hover{color:#23527c}
+
+			.Loginbutton{width: 60px;height: 30px;line-height:30px;text-align:center;background-color: #000d42;color:white;margin-left:45px;}
+			.Loginbutton:hover{background-color: #BF163D;}
+
+
+			/* 注册 */
+			.regborder{float: left;margin-top: 35px;width: 397.5px;height: 242px;border: 5px solid #D5D1CD;}
+			.regHeader{height: 20px; background-color: #D5D1CD;}
+			
+
+			.footer{height: 50px;background-color: #F4F4F4;margin-top: 30px;text-align:center;line-height:50px}

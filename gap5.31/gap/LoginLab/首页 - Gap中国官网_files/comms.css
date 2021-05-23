@@ -1,0 +1,55 @@
+.banner_0_top ul{list-style: none;}
+/* 800 轮播样式*/
+.hp_leftnav { overflow: hidden; margin-bottom: 30px; }
+.hp_leftnav .leftnav { float: left; max-width: 185px; position: relative; left: 0; top: 0; *top:0px; *+top:0px; top: 0px\0/; z-index: 1; }
+.hp_leftnav .ad { width: 800px; height: 700px; overflow: hidden; position: relative; left: 5px; }
+.hp_leftnav .slider, .hp_leftnav .num { position: absolute; padding: 0; }
+.hp_leftnav .slider img { display: block; border: 0; }
+.hp_leftnav .num li { width: 185px; height: 136px; cursor: pointer; list-style: none; }
+.hp_leftnav .slider li { list-style: none; overflow: hidden; position: relative; float: left; }
+
+/* 485 轮播样式 */
+#HP_bottom { margin: 20px auto;}
+ #HP_bottom_left { width: 485px; height: 430px; float: right; }
+#HP_foot { /*float: left; */width: 100%; height: 460px; position: relative;/* overflow: hidden;*/ }
+#HP_foot .mover { left: 0; padding-left: 0; position: absolute; width: 20000px; }
+#HP_foot .mover li { display: block; float: left; height: 460px;}
+#HP_foot .mover li img { margin:0 10px;}
+#HP_foot a.abtn { display: block; width: 20px; height: 30px; overflow: hidden; position: absolute; text-indent: -20000px; top: 35%; z-index: 990; background: url(http://dm.gap.cn/20120913/images/cn/left_004.png) no-repeat; }
+#HP_foot a.aleft { background-position: left -34px; left: 7px; }
+#HP_foot a.aright { background-position: left 0px; right: -4px; }
+#HP_bottom_right { width: 495px; height: 430px; float: right; }
+#headline { margin-bottom: 20px; }
+.more{ position: relative; width: 990px; height: 50px; cursor: pointer; visibility: visible; }
+.popup { position: relative; width: 990px; height: 200px; margin: 0 auto; top: -50px; display: none; }
+
+/* 990 轮播样式 */
+.banner_0{ position:relative; z-index:100; width: 100%; height: 100%; margin: 0 auto; }
+.banner_0_top{width: 990px; height: 536px;}
+.banner_0_top li{ position:absolute; left:0; top:0; width:100%; text-align:center; }
+.banner_0_bottom { position:absolute; bottom:10px; width:20%; left:10px; z-index:20; }
+.banner_0_bottom span{ background:url(http://dm.gap.cn/20140508/images/n_html55.png) left top no-repeat; width:12px; height:12px; display:inline-block; cursor:pointer; margin:0 2px; }
+.banner_0_bottom span.on{ background:url(http://dm.gap.cn/20140508/images/n_html55.png) right top no-repeat; }
+.banner_0 .next, .banner_0 .por{ width:31px; height:57px; position:absolute; top:35%; opacity:0.7; cursor:pointer; z-index:20; }
+.banner_0 .next{ background:url(http://dm.gap.cn/20140508/images/icons_lf.png) no-repeat; left: -1px; }
+.banner_0 .por{ background:url(http://dm.gap.cn/20140508/images/icons_lr.png) no-repeat; right: -1px; }
+
+/* banner_01轮播样式 */
+#up, #down, .adv-all img { cursor: pointer; }
+.banner_1 { width: 990px; margin: 20px 0 10px; overflow: hidden; }
+.banner_left{ float: left; }
+.ad { width:640px; overflow:hidden; position:relative; float: right; }
+.adl { width: 220px; float: left; }
+.adl .adll { width: 219px; height: 75px; position: relative; overflow: hidden; }
+.adl .adll img { display: block; }
+.adr{ position: relative; overflow: hidden; height: 298px; width: 420px; float: left; }
+.adl .sliders,.adr .slider,.adr .num, .adv .adv-link{ position:absolute; padding-left: 0; list-style: none !important; margin-bottom: 0 !important; }
+.adl .sliders li,.adr .slider li{ list-style:none; display:inline; }
+.adr .slider img{ width:420px; height:297px; display:block; }
+.adr .num{ bottom: 4px; right: 4px; }
+.adr .num li{ background:url(http://dm.gap.cn/20140512/images/on/icons_off.png) no-repeat; width: 16px; height: 16px; cursor: pointer; margin: 3px 1px; text-indent: -1000em; }
+.adr .num li.on{ background:url(http://dm.gap.cn/20140512/images/on/icons_on.png) no-repeat; }
+.adv{ width: 640px; height: 47px; float: left; background: url(http://dm.gap.cn/20140512/images/on/MID-SECTION---RIGHT_outfits_bg.jpg) no-repeat; }
+.adv-all{ margin-left: 266px; position: relative; }
+.adv-link{ width: 118px; bottom: 35px; left: 0; display: none; z-index: 2; border: 1px solid #ccc; background-color: #ffffff; overflow: hidden; }
+.adv-link li a{ color: #006699; padding: 4px 0 3px 5px; height: 18px; display: block; text-align: left; font-size: 15px; line-height: 18px; width: 70px; margin-left: 20px; border-bottom: 1px solid #ccc; }

@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+#homepage-content-1 {
+	margin-bottom: 20px;
+}
+#homepage-content-2, #homepage-content-3 {
+	margin-bottom: 10px;
+}
+#homepage-item-1 {
+	float: left;
+	width: 652px;
+	height: 798px;
+	position: relative;
+	overflow: hidden;
+}
+#homepage-item-1 .mover {
+	left: 0;
+	position: absolute;
+	width: 20000px;
+}
+#homepage-item-1 .mover li {
+	display: block;
+	float: left;
+	width: 652px;
+	height: 798px;
+}
+#homepage-item-1 a.abtn {
+	background: url("http://dm.gap.cn/20120913/images/cn/left_004.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -20000px;
+	top: 216px;
+	width: 19px;
+    z-index:990;
+}
+#homepage-item-1 a.aleft {
+	background-position: left -34px;
+	left: 7px;
+}
+#homepage-item-1 a.aright {
+	background-position: left 0px;
+	right: 7px;
+}
+#homepage-item-1 .abtn {
+	top: 346px;
+}
+#homepage-item-1 .aleft {
+	left: 1px;
+}
+#homepage-item-1 .aright {
+	right: 1px;
+}
+#homepage-item-2 {
+	width: 317px;
+	height: 399px;
+	float: right;
+}
+#homepage-item-3 {
+	width: 317px;
+	height: 399px;
+	float: right;
+}
+#homepage-item-4 {
+	width: 990px;
+	height: 252px;
+	margin-bottom: 13px;
+	position: relative;
+}
+#homepage-item-5, #homepage-item-6, #homepage-item-7 {
+	width: 320px;
+	height: 434px;
+}
+#homepage-item-5 {
+	margin-right: 15px;
+}
+#homepage-item-6 {
+	margin-right: 14px;
+}
+#homepage-item-7 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#homepage-item-8, #homepage-item-9, #homepage-item-10 {
+	width: 320px;
+	height: 434px;
+}
+#homepage-item-8 {
+	margin-right: 14px;
+}
+#homepage-item-9 {
+	margin-right: 14px;
+}
+.homepage-item {
+	overflow: hidden;
+	float: left;/*	margin-bottom:10px;*/
+}
+#homepage-item-4 .arrow {
+	width: 22px;
+	height: 29px;
+	position: absolute;
+	top: 100px;
+	cursor: pointer;
+}
+#homepage-item-4 .back {
+	left: 0;
+	background: url(http://dm.gap.cn/20120724/homepage-item-4-arrow.png) no-repeat 0 0;
+}
+#homepage-item-4 .back:hover {
+	background: url(http://dm.gap.cn/20120724/homepage-item-4-arrow.png) no-repeat 0 -29px;
+}
+#homepage-item-4 .forward {
+	right: 0;
+	background: url(http://dm.gap.cn/20120724/homepage-item-4-arrow.png) no-repeat 0 -59px;
+}
+#homepage-item-4 .forward:hover {
+	background: url(http://dm.gap.cn/20120724/homepage-item-4-arrow.png) no-repeat 0 -88px;
+}
+#homepage ul {
+	margin : 0;
+	padding: 0;
+	list-style : none;
+}
+#homepage-item-10 {
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#homepage-item-10-wrapper {
+	height: 305px;
+	border: 1px solid #e3e3e3;
+	width: 305px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#homepage-item-10 .mover {
+	left: 0;
+	position: absolute;
+	padding-left: 0px;
+	top: 0;
+	width: 20000px;
+}
+#homepage-item-10 .nav {
+	right: 4px;
+	position: absolute;
+	top: 4px;
+}
+#homepage-item-10 .mover li {
+	float: left;
+	width: 303px;
+	height: 306px;
+}
+#homepage-item-10 .nav li {
+	float: left;
+	padding: 5px 10px;
+	margin-right: 5px;
+	background: #fff;
+}
+#homepage-item-10 .nav .current {
+	background: blue;
+}
+#homepage-item-10 .nav .current a {
+	color: #fff;
+}
+#homepage-item-10 a.abtn {
+	background: url(http://dm.gap.cn/20120724/homepage-item-10.jpg) no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 22px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -20000px;
+	top: 132px;
+	width: 17px;
+}
+#homepage-item-10 a.aleft {
+	background-position: left 0px;
+	left: 1px;
+}
+#homepage-item-10 a.aright {
+	background-position: left -22px;
+	right: 2px;
+}
+#homepage-item-10 .abtn {
+	top: 162px;
+}
+#homepage-item-10 .aleft {
+	left: 15px;
+}
+#homepage-item-10 .aright {
+	right: 15px;
+}
+#homepage-item-10-text {
+	position: absolute;
+	top: 10px;
+}
+#homepage-item-10-bottom {
+	margin-top: 305px;
+}
+.newsletter-container {
+	margin: 0 auto;
+}
+.ad {
+	position: relative;
+	height: 798px;
+	width: 652px;
+	margin: 0 auto;
+}
+.slider {
+	height: 798px;
+	overflow: hidden;
+	position: relative;
+}
+#detailInfo, #detailInfoz {
+	position: absolute;
+	top: 280px;
+    left:160px;
+	display: none;
+	z-index: 999;
+}
+#showDail, #showDailz {
+	cursor: pointer;
+}
+#closeDetail, #closeDetailz {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.head_title {
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.homepage-item .head_content {
+	margin: 4px 0 0;
+	color:#8a8a8a;	
+}
+.head_link {
+	color:#0ADAFF;
+	font-size: 12px;
+	font-weight:bold;
+}
+.span_line {
+	color:#0ADAFF;
+	margin: 0 5px;
+}

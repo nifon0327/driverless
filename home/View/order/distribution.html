@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="<?= HOME_CSS ?>clearfix.css">
+	<style>
+		body{font-size:13px}
+		li{list-style:none;float: left;margin: 0;padding: 0;}
+		.fl{float: left;}
+		.orderHistory{width: 795px;height: 142px;}
+		.mainHead{width: 795px;height: 81px;}
+		.headerTitle{width: 795px;height: 30px;background-color: #7F7573; } 
+		.titleLeft{color:white;float: left;line-height: 30px;}
+		a{color:white;text-decoration:none}
+		a:hover,a:active,a:focus{color:white}
+		.titleRight{height: 30px;float: right;margin-right: 10px;line-height: 30px;}
+		.titleblank{height: 46px;}
+		.titleBottom{width: 795px;height: 38px;float: left;border-bottom: 1px solid black;}
+		.bottomDiv{width: 132px;height: 37px;margin-right: 5px;float: left;border:1px solid black;text-align: center;line-height: 37px;}
+		.bl{color:white;background-color: #000842;}
+		.orderList{margin: 20px auto 5px;width: 795px;height: 26px;}
+		.orderList li{margin:0 20px;color:#666666;font-weight:bold;}
+		.orderList li:first-of-type{float: left;margin-left: 0;margin-right: 20px;} 
+		.orderTip{width: 556.5px;height: 38px;padding: 20px 0 15px 238.5px;line-height: 38px;background-color: #F3F3F1;color:#666666}
+	</style>
+</head>
+<body>
+	<div class='orderHistory'>
+		<div class='mainHead clearfix'>
+			<div class='headerTitle'>
+				<div class='titleLeft'>配送中订单</div>
+				<div class='titleRight'><a href="">退换货订单</a></div>
+			</div>
+			<div class='orderList'>
+				<ul>
+					<li>订单编号</li>
+					<li>下单时间</li>
+					<li>订单状态</li>
+					<li>订单总价</li>
+					<li>已付金额</li>
+					<li>支付方式</li>
+					<li>订单操作</li>
+					<li>物流信息</li>
+				</ul>
+			</div>
+			<div class='orderTip'><img src="<?= HOME_IMG ?>important.png" class='fl'><span class='fl'>当前没有相关订单</span></div>
+		</div>
+	</div>	
+</body>
+</html>

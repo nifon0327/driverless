@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="<?= HOME_CSS ?>clearfix.css">
+	<style>
+		body{font-size:13px}
+		li{list-style:none;float: left;margin: 0;padding: 0;}
+		.fl{float: left;}
+		.orderHistory{width: 795px;height: 226px;}
+		.mainHead{width: 795px;height: 114px;}
+		.headerTitle{width: 795px;height: 30px;background-color: #7F7573; } 
+		.titleLeft{color:white;float: left;line-height: 30px;}
+		a{color:white;text-decoration:none}
+		a:hover,a:active,a:focus{color:white}
+		.titleRight{height: 30px;float: right;margin-right: 10px;line-height: 30px;}
+		.titleblank{height: 46px;}
+		.titleBottom{width: 795px;height: 38px;float: left;border-bottom: 1px solid black;}
+		.bottomDiv{width: 132px;height: 37px;margin-right: 5px;float: left;border:1px solid black;text-align: center;line-height: 37px;}
+		.bl{color:white;background-color: #000842;}
+		.cb{color: black;}
+		.cb:hover{color:black;}
+		.email p{width: 600px;height: 30px;margin: 15px auto 0;}
+		.email p:last-of-type{width: 600px;height: 30px;margin-left: 150px;}
+		.email input{width: 500px;height: 28px;}
+		.email .button{width: 75px;height: 27px;color:white;background-color: #000D42;outline:none;border:none;text-align: center;}
+		.email .button:hover{background-color: #BF163D;cursor:pointer}
+
+	</style>
+</head>
+<body>
+	<div class='orderHistory'>
+		<div class='mainHead clearfix'>
+			<div class='headerTitle'>
+				<div class='titleLeft'>管理个人信息</div>
+			</div>
+			<div class='titleblank'></div>
+			<div class='titleBottom'>
+				<div class='bottomDiv'><a href="index.php?c=user&m=edit" class='cb'>修改账户信息</a></div>
+				<div class='bottomDiv'><a href="index.php?c=user&m=password" class='cb'>修改密码</a></div>
+				<div class='bottomDiv bl'>修改邮箱</div>
+				<div class='bottomDiv'><a href="index.php?c=user&m=address" class='cb'>管理收货地址</a></div>
+			</div>
+		</div>
+		<div class='email'>
+			<form action="">
+				<p>EMAIL <input type="text"></p>
+				<p><input type="button" class='button' value='确认修改'></p>
+			</form>
+		</div>
+	</div>	
+</body>
+</html>

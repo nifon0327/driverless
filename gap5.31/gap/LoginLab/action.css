@@ -1,0 +1,2 @@
+body{margin: 0; padding: 0;background-color: black; opacity:0.3;position: fixed;}
+div{position: fixed;z-index:9999;top:30%;left:30%;background-color: white;width: 500px;height: 300px;line-height:300px;text-align:center}

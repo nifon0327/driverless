@@ -1,0 +1,231 @@
+<?php 
+	$man = array
+	(
+		array('img'=>'0e909806dc4e702702e3aa7e876f3620_1.jpg','desc'=>'条纹短袖圆领卫衣
+男装|条纹短袖圆领卫衣','price'=>'￥299.00','tips'=>'新品上市'),
+		array('img'=>'0f7065fc66a1f5186467b9a26853f0c5_2.jpg','desc'=>'GapFit运动系列针织无袖连帽卫衣
+男装|GapFit运动系列针织无袖连帽卫衣','price'=>'￥199.00','tips'=>'新品上市'),
+		array('img'=>'3d596d9f252af1c1ce0a526e7c9010b0_4.jpg','desc'=>'GapFit运动系列针织拉链连帽卫衣
+男装|GapFit运动系列针织拉链连帽卫衣','price'=>'￥299.00','tips'=>'新品上市'),
+		array('img'=>'7abaef984c96544a5ca083c6f2ee9d7b_1.jpg','desc'=>'GapFit运动系列针织拉链连帽卫衣
+男装|GapFit运动系列针织拉链连帽卫衣','price'=>'￥399.00
+','tips'=>'新品上市'),
+		array('img'=>'7caf21339b5acff326805bfbd86bcd7c_1.jpg','desc'=>'舒适毛圈布直筒棒球卫衣
+男装|舒适毛圈布直筒棒球卫衣','price'=>'￥399.00','tips'=>'新品上市'),
+		array('img'=>'7f56a6f66d4edd6fc3f8a32175cb3596_1.jpg','desc'=>'Gap徽标旗帜印花连帽卫衣
+男装|Gap徽标旗帜印花连帽卫衣','price'=>'￥399.00','tips'=>'新品上市'),
+		array('img'=>'40d8fcfede6c17366358cc4f0dcedcaf_1.jpg','desc'=>'柔软毛圈布直筒拉链卫衣
+男装|柔软毛圈布直筒拉链卫衣','price'=>'￥248.00','tips'=>'男女装减价商品享7折'),
+		array('img'=>'689c323ff09a9ab42ece5691ec9f2592_1.jpg','desc'=>'柔软毛圈布直筒拉链卫衣
+男装|柔软毛圈布直筒拉链卫衣','price'=>'￥248.00','tips'=>''),
+		array('img'=>'1500x2000-a_21_1.jpg','desc'=>'经典舒适圆领衫
+男装|经典舒适圆领衫','price'=>'￥198.00','tips'=>'新品上市'),
+		array('img'=>'1500x2000-a_24_1.jpg','desc'=>'Gap徽标直筒圆领卫衣
+男装|Gap徽标直筒圆领卫衣','price'=>'￥299.00','tips'=>'新品上市'),
+		array('img'=>'1500x2000-a_48_3.jpg','desc'=>'条纹短袖圆领卫衣
+男装|条纹短袖圆领卫衣','price'=>'￥299.00','tips'=>'新品上市'),
+	);
+
+
+ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>男装-Gap中国官网</title>
+	<link rel="icon" href="<?= HOME_IMG ?>www.ico.la_5579b930862f6ab7cddca1127eee0503_40X40.ico">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>clearfix.css">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>goods.css">	
+	<style>
+			@font-face{font-family:'aaa' ;src: url('<?= HOME_FONT ?>font_8po8pp7hsws1c3di/iconfont.ttf')}
+
+			.icoGap{width: 56px;height: 50px;background: url('<?= HOME_IMG ?>gap.png');margin-left:5px}
+
+			.icoON{width: 60px;height: 50px;background: url('<?= HOME_IMG ?>on.png');}
+
+			.icoON:hover{background:url('<?= HOME_IMG ?>on1.png')}
+
+			.headerLogin{width: 100px;height: 50px;background:url('<?= HOME_IMG ?>login.png');margin-left: 110px;position:relative;}
+
+			.headerLogin:hover{background:url('<?= HOME_IMG ?>login1.png')}
+
+			.headerNavPop{width: 710px;height: 700px;background: url('<?= HOME_IMG ?>170504popCN.jpg');z-index:100;margin: 0 auto;display:none;position:relative}
+
+			.mainNavLogo{background:url('<?= HOME_IMG ?>logo.gif') 0 0/70px 70px;width: 70px;height: 70px;float: left;margin-right:50px}
+		
+	</style>
+</head>
+<body>
+	<!-- 头部 -->
+	<div class='header clearfix'>
+		<div class='headerMain clearfix'>
+			<div class='icoGap fl'></div>
+			<div class='icoON fl'></div>
+			<div class='shoppingList fr mlb mrs'>&#xe60a;</div>
+			<div class='headerLogin fr' id='btn3'>    <!-- 注册按钮 -->
+			<script>						//弹出下拉框
+	            // window.onload=function()
+	            // {
+	                btn3.onclick=function()
+	                {
+	                    div3.style.display =
+	                        !div3.style.display||div3.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+				<div class=headerLoginContent id='div3'>     <!-- 注册下拉框 -->
+					<div class='headerLoginContentButton'>
+						<?php if (!empty($_SESSION['customer']['tel'])): ?>
+						<a href="index.php?c=order"><?= $_SESSION['customer']['tel']?></a> | 
+						<a href="index.php?c=login&m=logout"> 退出 </a>
+						<?php else: ?>
+						<a href="index.php?c=user&m=register">注册</a> | <a href="index.php?c=login">登录</a>
+						
+						<?php endif ?> 
+					</div>
+					<hr width=90px align=center color=#ccc >
+					<ul>
+						<a href="index.php?c=order"><li>我的订单</li></a>
+						<li>帮助中心</li>
+						<li>在线客服</li>
+						<li>查找门店</li>
+					</ul>
+				</div>
+			</div>
+			<span class='headerMiddle fr tdl'> 查看详情</span> <span class='headerMiddle fr'>满RMB199免运费 | 正价商品退换货包邮&ensp; </span>					
+		</div>										<!-- 需加个超链接 -->
+		<div class='headerNav clearfix' id='btn1'>
+			<div class='headerNavPicture clearfix' >
+       		 <script>							//蓝条图片改变
+				function change_pic()
+				{
+					var imgObj = document.getElementById("pic1");
+					var Flag=(imgObj.getAttribute("src",2)=="<?= HOME_IMG ?>170504CNopen.jpg")
+					imgObj.src=Flag?"<?= HOME_IMG ?>170504CNclose.jpg":"<?= HOME_IMG ?>170504CNopen.jpg";
+				}
+			</script>
+				<img src="<?= HOME_IMG ?>170504CNopen.jpg" id='pic1' onClick="change_pic()">
+			</div>
+			<script>						//蓝条框点击出现
+	            // window.onload=function()
+	            // {
+	                btn1.onclick=function()
+	                {
+	                    div1.style.display =
+	                        !div1.style.display||div1.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+			<div class='headerNavPop clearfix' id='div1'></div>
+		</div>
+	</div>
+	<div class='main clearfix'>
+		<div class='headerSearch clearfix'>
+			<div class='headSearchBorder' id='div2' >
+				<form action="">
+					<label><div class='headerSearchPic fr'>&#xe603;</div>
+					<input type="text" placeholder='请输入关键词' id='test'></label>
+				</form>
+			</div>
+			<script>
+	        		document.getElementById('test').onfocus=function() 
+	        	{
+		            document.getElementById('div2').style.outline='1px solid #A6C8FF';
+	        	};
+	        	document.getElementById('test').onblur=function() 
+	        	{
+		            document.getElementById('div2').style.outline='none';
+	        	};
+   			</script>
+		</div>
+		<div class='mainNav clearfix'>
+			<div class='mainNavLogo clearfix'></div>
+			<div class='mainNavBorder fl clearfix'>
+				<ul>
+					<a href="index.php"><li>首页</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>新品</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>孕妇装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>幼儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>婴儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>GapFit</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>Sale</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- 商品页 -->
+		<div class='mainContainer clearfix'>
+			<div class='goodsTitle'>
+				<a href="index.php" >首页</a>
+				<a href="goods.php" class='pl ml'>男装</a>
+				<a href="goods.php" class='pl ml'>卫衣</a>
+			</div>
+			<div class='goodsLeft'>
+				<ul>
+					<li class='goodsLeftTitle'>限时特惠</li>
+					<li class='ti'><a href="">精选男女装短裤149元起</a></li>
+					<li class='ti'><a href="">精选男女装T恤79元起</a><h5></h5></li>
+					<li class='goodsLeftTitlemn'>分类</li>
+					<li class='ti'><a href="">徽标系列</a></li>
+					<li class='ti'><a href="">衬衫</a></li>
+					<li class='ti'><a href="">T恤/背心/POLO衫</a></li>
+					<li class='goodsLeftTitlemn before'>&#8226;卫衣</li>
+					<li class='ti'><a href="">针织衫/毛衣</a></li>
+					<li class='ti'><a href="">外套</a></li>
+					<li class='ti'><a href="">中/短裤</a></li>
+					<li class='ti'><a href=""></a></li>
+					<li class='ti'><a href="">卡其裤</a></li>
+					<li class='ti'><a href="">休闲裤</a></li>
+					<li class='ti'><a href="">GapFit运动系列</a></li>
+					<li class='ti'><a href="">家居服/睡衣</a></li>
+					<li class='ti'><a href="">内裤/袜子</a></li>
+					<li class='ti'><a href="">配饰</a><h5></h5></li>
+					<li class='goodsLeftTitle'>近期主推专题</li>
+					<li class='ti'><a href="">新品上市</a></li>
+					<li class='ti'><a href="">度假时刻</a><span class='icon'>new&nbsp;</span></li>
+					<li class='ti'><a href="">假日风尚</a></li>
+					<li class='ti'><a href="">GET春季时尚装法</a></li>
+					<li class='ti'><a href="">牛仔新势力</a></li>
+					<li class='ti re'><a href="">Sale</a></li>
+					
+				</ul>
+			</div>
+			<div class='goodsright'>
+				<div class='goodsrightTitle'></div>
+				<div class='goodsrightMain'>
+					<ul class='goodsrightBox'>
+					<?php foreach ($man as  $v): ?>
+						<li>
+							<ul class='fl mrd mt'>
+								<a href="index.php?c=goods&m=detail"><li class='fl'><img src="<?= HOME_IMG ?><?= $v['img']?>" height=260px width=196px></li></a>
+								<li class='fl'><?= $v['desc']?></li>
+								<li class='fl'><?= $v['price']?></li>
+								<li class='fl'><?= $v['tips']?></li>
+							</ul>
+						</li>
+					<?php 	endforeach; ?>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	<!-- 底部 -->
+	<center>
+		<div style='margin: 0 auto;'><img src="<?= HOME_IMG ?>footer"></div>
+	</center>
+	<div class='footer'>© 2017 Gap Inc.</div>
+</body>
+</html>

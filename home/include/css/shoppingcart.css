@@ -1,0 +1,72 @@
+			/* 新浪官网 样式初始化 */
+			body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+			body{background:#fff;color:#333;font-size:12px;font-family:font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;} 
+			 
+			ul,ol{list-style-type:none;} 
+			select,input,img,select{vertical-align:middle;} 
+			 
+			a{text-decoration:none;} 
+			a:link{color:#000741;} 
+			a:visited{color:#000741;} 
+			a:hover,a:active,a:focus{color:#000741;text-decoration:none;} 
+			@font-face{font-family:'aaa' ;src: url('./font_8po8pp7hsws1c3di/iconfont.ttf')}
+			div:hover{cursor:pointer;}
+			span:hover{cursor:text;}
+			.ls{letter-spacing: 5px;}
+			.fl{float: left;}
+			.fr{float: right;}
+			.ma{margin:auto}
+			.mrs{margin-right:20px;}
+			.mrm{margin-right:20px;}
+			.mlb{margin-left: 110px;}
+			.mt{margin-top: 15px;}
+			.tdl{text-decoration:underline}
+			/* 顶部 */
+			.header{height: 100px;background-color: #F4F4F4;}
+			.headerMain{width: 1000px;height: 50px;margin: 0 auto;font-size:14px;color:#666666;}
+			.icoGap{width: 56px;height: 50px;background: url('gap.png');margin-left:5px}
+			.icoON{width: 60px;height: 50px;background: url('on.png');}
+			.shoppingList{font-family:'aaa';font-size:30px;line-height:50px}
+			.icoON:hover{background:url('on1.png')}
+			.headerLogin{width: 100px;height: 50px;background:url('login.png');margin-left: 110px;position:relative;}
+			.headerLoginContent{width: 100px;height: 200px;	background-color: white;display:none;position:absolute;top:50px;z-index:50;}
+			.headerLoginContentButton{background-color: #000d42;color:white;border:1px solid #666;margin:10px auto;width:90px;height: 35x;text-align:center;display:block ;margin-bottom:10px}
+			.headerLoginContentButton a{font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;font-size:13px;line-height:35px;text-indent:2em;color:white;}
+			.headerLoginContent li{font-size:13px; line-height:26px;text-align:center;margin-bottom:5px;margin-top:5px}
+			.headerLogin:hover{background:url('login1.png')}
+			.headerMiddle{line-height:50px}
+			.headerNav{height: 50px;background:#AEC9E7;margin: 0 auto;}
+			.headerNavPicture{height: 50px;width: 960px;margin: 0 auto;vertical-align:middle;}
+			.headerNavPicture img{vertical-align:middle;}
+			.headerNavPop{width: 710px;height: 700px;background: url('首页 - Gap中国官网_files/170504popCN.jpg');z-index:100;margin: 0 auto;display:none;position:relative}
+			.main{margin-top: 10px;}
+
+			.headerSearch{width: 1000px;height: 40px;margin:15px auto;position:relative}
+			.headSearchBorder{float: right;border:1px solid #A9A9A9;}
+			.headerSearch input{float:right;width: 170px;height: 40px;border:0px solid white;outline:none;}
+			.headerborder:focus{outline:1px solid #A6C8FF}
+			.headerSearchPic{font-family:'aaa';font-size:30px;float: right;line-height:40px;margin-right: 10px;}
+
+			.mainNav{width: 1000px;height: 70px;margin: 10px auto;position:relative}
+			.mainNavLogo{background:url('首页 - Gap中国官网_files/logo.gif') 0 0/70px 70px;width: 70px;height: 70px;float: left;margin-right:50px}
+			.mainNavBorder{width: 880px;height: 70px;}
+			.mainNavBorder li{float: left;margin-right: 20px;color:#000741;line-height: 70px;font:bold 16px 微软雅黑;}
+			.mainborder{width: 1200px;margin:0 auto;margin-top: 50px;}
+			/* detail */
+			.shoppingcartMain{width: 990px;margin: 20px auto;}
+			.ContinueShopping a{float: right;color:#369;font-size: 14px;}
+			.ContinueShopping a:hover{color: #369;}
+			.ContinueShoppingNav{width: 990px;height: 30px;background-color: #7F7573;color:white;float: left;}
+			.ContinueShoppingNav ul{float: left;}
+			.ContinueShoppingNav ul li{float: left;margin-right: 75px;padding-right: 75px;line-height: 30px;font-size: 14px;}
+			.ContinueShoppingContent{width: 990px;height: 78px;margin: 60px 0;text-align: center;float: left;vertical-align: middle;display:table-cell;line-height: 25px;font-size: 14px;}
+			.ContinueShoppingContent a{color:#369;}
+			.ContinueShoppingContent a:hover{color:#369;}
+
+
+			/* 底部 */
+			.footer{height: 50px;background-color: #F4F4F4;margin-top: 30px;text-align:center;line-height: 50px;}
+
+
+
+			

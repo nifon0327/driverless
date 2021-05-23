@@ -1,0 +1,81 @@
+/* 新浪官网 样式初始化 */
+			body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+			body{background:#fff;color:#333;font-size:12px;font-family:font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;} 
+			 
+			ul,ol{list-style-type:none;} 
+			select,input,img,select{vertical-align:middle;} 
+			 
+			a{text-decoration:none;} 
+			a:link{color:#000741;} 
+			a:visited{color:#000741;} 
+			a:hover,a:active,a:focus{color:#000741;text-decoration:none;} 
+			/* 新浪官网 样式初始化 */
+			div:hover{cursor:pointer;}
+			span:hover{cursor:text;}
+			.fl{float: left;}
+			.fr{float: right;}
+			.ma{margin:auto}
+			.mrs{margin-right:20px;}
+			.mrm{margin-right:20px;}
+			.mlb{margin-left: 110px;}
+			.mt{margin-top: 15px;}
+			.tdl{text-decoration:underline}
+			.header{height: 100px;background-color: #F4F4F4;}
+			.headerMain{width: 1000px;height: 50px;margin: 0 auto;font-size:14px;color:#666666;}
+			.shoppingList{font-family:'aaa';font-size:30px;line-height:50px}
+			.headerLoginContent{width: 100px;height: 200px;	background-color: white;display:none;position:absolute;top:50px;z-index:50;}
+			.headerLoginContentButton{background-color: #000d42;color:white;border:1px solid #666;margin:10px auto;width:90px;height: 35x;text-align:center;display:block ;margin-bottom:10px}
+			.headerLoginContentButton a{font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;font-size:13px;line-height:35px;text-indent:2em;color:white;}
+			.headerLoginContent li{font-size:13px; line-height:26px;text-align:center;margin-bottom:5px;margin-top:5px}
+			.headerMiddle{line-height:50px}
+			.headerNav{height: 50px;background:#AEC9E7;margin: 0 auto;}
+			.headerNavPicture{height: 50px;width: 960px;margin: 0 auto;vertical-align:middle;}
+			.headerNavPicture img{vertical-align:middle;}
+			.
+			.main{margin-top: 10px;}
+
+			.headerSearch{width: 1000px;height: 40px;margin:15px auto;position:relative}
+			.headSearchBorder{float: right;border:1px solid #A9A9A9;}
+			.headerSearch input{float:right;width: 170px;height: 40px;border:0px solid white;outline:none;}
+			.headerborder:focus{outline:1px solid #A6C8FF}
+			.headerSearchPic{font-family:'aaa';font-size:30px;float: right;line-height:40px;margin-right: 10px;}
+
+			.mainNav{width: 1000px;height: 70px;margin: 0 auto;position:relative}
+			.mainNavBorder{width: 880px;height: 70px;}
+			.mainNavBorder li{float: left;margin-right: 20px;color:#000741;line-height: 70px;font:bold 16px 微软雅黑;}
+			
+
+			/* goods */
+			.mainContainer{width: 1000px;margin: 10px auto;}
+			.goodsTitle{width: 1000px;height: 23px;margin: 0px auto 10px;}
+			.goodsTitle a{font:bold 13px/23px arial;color:black}
+			.pl{padding-left: 13px;}
+			.ml{margin-left: 2px;}
+			.goodsTitle a:hover{color:black}
+
+			/* left */
+			.goodsLeft{float: left;width: 148.5px;height: 595px;}
+			.goodsLeft ul{float: left;width: 148.5px;height: 595px;margin-right: 5px;}
+			.goodsLeft ul li{width: 148.5px;}
+			.goodsLeftTitle{font:bold 13px/18px arial;color:black;height: 18px;margin-top: 10px;}
+			.goodsLeftTitlemn{font:bold 13px/18px arial;color:black;height: 18px;}
+			.goodsLeft a{font:13px/22px arial;color:#333;}
+			.ti{text-indent:5px;}
+			.goodsLeft a:hover{color:#010F3E;font-weight:bold;}
+			h5{width: 123.5px; margin: 10px 25px 10px 0;border-bottom: 1px solid black;	}
+			.icon{width: 35px;height: 15px;background-color: #004A80;color:white;display:inline-block;font-size:13px;line-height:15px;margin-left: 15px;outline:1px solid white;vertical-align:middle;}
+			.re a{color:#A0000A}
+			.re a:hover{color:#A0000A;font-weight:bold;}
+
+			/* right */
+			.goodsright{width: 820px;padding: 10px;height: 1200px;float: left;}
+			.goodsrightTitle{width: 820px;height: 40px;background-color: #ccc;;float:left;}
+			.goodsrightMain{width: 820px;height: 700px}
+			.mrd{margin:10px 4.5px; width: 196px; height: 320px;}
+
+
+
+			
+			
+
+			.footer{height: 50px;background-color: #F4F4F4;margin-top: 30px;text-align:center;line-height:50px}

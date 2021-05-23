@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GAP经典纯棉侧开叉抽绳短裤-Gap中国官网</title>
+	<link rel="icon" href="<?= HOME_IMG ?>www.ico.la_5579b930862f6ab7cddca1127eee0503_40X40.ico">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>clearfix.css">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>detail.css">	
+	<style>
+			@font-face{font-family:'aaa' ;src: url('<?= HOME_FONT ?>font_8po8pp7hsws1c3di/iconfont.ttf')} 
+			@font-face {font-family:'abc'; src:url('<?= HOME_FONT ?>font_r6g1ix8xllahsemi/iconfont.ttf'); } 
+			.icoGap{width: 56px;height: 50px;background: url('<?= HOME_IMG ?>gap.png');margin-left:5px} 
+			.icoON{width: 60px;height: 50px;background: url('<?= HOME_IMG ?>on.png');} 
+			.icoON:hover{background:url('<?= HOME_IMG ?>on1.png')} 
+			.headerLogin{width: 100px;height: 50px;background:url('<?= HOME_IMG ?>login.png');margin-left: 110px;position:relative;} 
+			.headerLogin:hover{background:url('<?= HOME_IMG ?>login1.png')} 
+			.headerNavPop{width: 710px;height: 700px;background: url('<?= HOME_IMG ?>170504popCN.jpg');z-index:100;margin: 0 auto;display:none;position:relative} 
+			.mainNavLogo{background:url('<?= HOME_IMG ?>logo.gif') 0 0/70px 70px;width: 70px;height: 70px;float: left;margin-right:50px}
+	</style>
+</head>
+<body>
+	<!-- 头部 -->
+		<div class='header clearfix'>
+		<div class='headerMain clearfix'>
+			<div class='icoGap fl'></div>
+			<div class='icoON fl'></div>
+			<div class='shoppingList fr mlb mrs'>&#xe60a;</div>
+			<div class='headerLogin fr' id='btn3'>    <!-- 注册按钮 -->
+			<script>						//弹出下拉框
+	            // window.onload=function()
+	            // {
+	                btn3.onclick=function()
+	                {
+	                    div3.style.display =
+	                        !div3.style.display||div3.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+				<div class=headerLoginContent id='div3'>     <!-- 注册下拉框 -->
+					<div class='headerLoginContentButton'>
+						<?php if (!empty($_SESSION['customer']['tel'])): ?>
+						<a href="index.php?c=order"><?= $_SESSION['customer']['tel']?></a> | 
+						<a href="index.php?c=login&m=logout"> 退出 </a>
+						<?php else: ?>
+						<a href="index.php?c=user&m=register">注册</a> | <a href="index.php?c=login">登录</a>
+						
+						<?php endif ?>  
+					</div>
+					<hr width=90px align=center color=#ccc >
+					<ul>
+						<a href="index.php?c=order"><li>我的订单</li></a>
+						<li>帮助中心</li>
+						<li>在线客服</li>
+						<li>查找门店</li>
+					</ul>
+				</div>
+			</div>
+			<span class='headerMiddle fr tdl'> 查看详情</span> <span class='headerMiddle fr'>满RMB199免运费 | 正价商品退换货包邮&ensp; </span>					
+		</div>										<!-- 需加个超链接 -->
+		<div class='headerNav clearfix' id='btn1'>
+			<div class='headerNavPicture clearfix' >
+       		 <script>							//蓝条图片改变
+				function change_pic()
+				{
+					var imgObj = document.getElementById("pic1");
+					var Flag=(imgObj.getAttribute("src",2)=="<?= HOME_IMG ?>170504CNopen.jpg")
+					imgObj.src=Flag?"<?= HOME_IMG ?>170504CNclose.jpg":"<?= HOME_IMG ?>170504CNopen.jpg";
+				}
+			</script>
+				<img src="<?= HOME_IMG ?>170504CNopen.jpg" id='pic1' onClick="change_pic()">
+			</div>
+			<script>						//蓝条框点击出现
+	            // window.onload=function()
+	            // {
+	                btn1.onclick=function()
+	                {
+	                    div1.style.display =
+	                        !div1.style.display||div1.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+			<div class='headerNavPop clearfix' id='div1'></div>
+		</div>
+	</div>
+	<div class='main clearfix'>
+		<div class='headerSearch clearfix'>
+			<div class='headSearchBorder' id='div2' >
+				<form action="">
+					<label><div class='headerSearchPic fr'>&#xe603;</div>
+					<input type="text" placeholder='请输入关键词' id='test'></label>
+				</form>
+			</div>
+			<script>
+	        		document.getElementById('test').onfocus=function() 
+	        	{
+		            document.getElementById('div2').style.outline='1px solid #A6C8FF';
+	        	};
+	        	document.getElementById('test').onblur=function() 
+	        	{
+		            document.getElementById('div2').style.outline='none';
+	        	};
+   			</script>
+		</div>
+		<div class='mainNav clearfix'>
+			<div class='mainNavLogo clearfix'></div>
+			<div class='mainNavBorder fl clearfix'>
+				<ul>
+					<a href="index.php"><li>首页</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>新品</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>孕妇装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>幼儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>婴儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>GapFit</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>Sale</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- 商品页 -->
+		<div class='mainContainer clearfix'>
+			<div class='goodsTitle clearfix'>
+				<a href="" >首 页</a>
+				<a href="" class='pl ml ls'>男 装</a>
+				<a href="" class='pl ml ls'>We Love Outfits</a>
+				<a href="" class='pl ml ls'>经典纯棉侧开叉抽绳短裤</a>
+			</div>
+			<div class='goodsLeft clearfix'>
+				<ul>
+					<li class='goodsLeftTitle'>分类</li>
+					<li class='ti'><a href="">徽标系列</a></li>
+					<li class='ti'><a href="">衬衫</a></li>
+					<li class='ti'><a href="">T恤/背心/POLO衫</a></li>
+					<li class='ti'><a href="">卫衣</a></li>
+					<li class='ti'><a href="">针织衫/毛衣</a></li>
+					<li class='ti'><a href="">外套</a></li>
+					<li class='ti'><a href="">中/短裤</a></li>
+					<li class='ti'><a href=""></a></li>
+					<li class='ti'><a href="">卡其裤</a></li>
+					<li class='ti'><a href="">休闲裤</a></li>
+					<li class='ti'><a href="">GapFit运动系列</a></li>
+					<li class='ti'><a href="">家居服/睡衣</a></li>
+					<li class='ti'><a href="">内裤/袜子</a></li>
+					<li class='ti'><a href="">配饰</a><h5></h5></li>
+					<li class='goodsLeftTitle'>近期主推专题</li>
+					<li class='ti'><a href="">新品上市</a></li>
+					<li class='ti'><a href="">度假时刻</a><span class='icon'>new&nbsp;</span></li>
+					<li class='ti'><a href="">假日风尚</a></li>
+					<li class='ti'><a href="">GET春季时尚装法</a></li>
+					<li class='ti'><a href="">牛仔新势力</a></li>
+					<li class='ti re'><a href="">Sale</a></li>
+				</ul>
+			</div>
+			<div class='goodsmiddle'>
+
+				<div class='goodsmiddleLeft'>
+					<div class='goodsmiddlePic'><img src="<?= HOME_IMG ?>1mainimg_3_1494827176.jpg" width='308px' height='401px'>
+					</div>
+					<div class='goodsmiddlePicLook'>
+						<span class='front'>点击图片查看细节</span>
+						<span class='behind'>放大</span>
+					</div>
+					<div class='smallpic'>
+						<ul class='fl'>
+							<li  class='fl mr5 ml20'>视频</li>
+							<li  class='fl mr5'><img src="<?= HOME_IMG ?>789838tapestry_navy_m-1500-1_1(1).jpg" width='45px' height='60px'></li>
+							<li  class='fl mr5'><img src="<?= HOME_IMG ?>789838tapestry_navy_m-1500-2_1.jpg" width='45px' height='60px'></li>
+							<li class='fl mr5'><img src="<?= HOME_IMG ?>789838tapestry_navy_m-1500-3_1.jpg" width='45px' height='60px'></li>
+							<li class='fl'><img src="<?= HOME_IMG ?>789838tapestry_navy_m-1500-4_1.jpg" width='45px' height='60px'></li>
+						</ul>
+					</div>
+				</div>
+				<div class='goodsmiddleRight clearfix'>
+					<div class='goodsmiddleRightOne clearfix'>男装   |  经典纯棉侧开衩抽绳短裤</div>
+					<div class='goodsmiddleRightTwo clearfix'><span>购正价商品2件8折,3件75折</span><span class='color666'>(优惠价在购物袋页面生效)</span></div>
+					<div class='goodsmiddleRightThree clearfix'>
+						<div>现价:</div><span>&yen; 299</span>
+						<a href="detail.html" class='fft'>&#xe607; 加入收藏</a>
+					</div>
+					<p>款号：000789838</p>
+					<div class='goodsmiddleRightFour clearfix'>颜色:</div>
+					<div class='goodsmiddleRightFive clearfix'>
+						<div class='Fivecolor'><img src="<?= HOME_IMG ?>930_530789838chino_m-1500-1_1" title="斜纹棉布黄" width='28px'></div>
+						<div class='Fivecolor'><img src="<?= HOME_IMG ?>935_565789838tapestry_navy_m-1500-1_1" title="军海蓝" width='28px'></div>
+						<div class='Fivecolor'><img src="<?= HOME_IMG ?>910_495789838sage_m-1500-1_1" title="鼠尾草绿" width='28px'></div>
+						<div class='Fivecolor'><img src="<?= HOME_IMG ?>900_530789838mission_tan_m-1500-1_1" title="古铜色" width='28px' height='28px'></div>
+					</div>
+					<div class='goodsmiddleRightFour clearfix'>尺码:</div>
+					<div class='goodsmiddleRightSix clearfix'>
+						<div class='SixDiv'>175/76A(XS)</div>
+						<div class='SixDiv'>175/80A(S)</div>
+						<div class='SixDiv'>175/86A(M)</div>
+						<div class='SixDiv'>175/90A(L)</div>
+						<div class='SixDiv'>175/96A(XL)</div>
+					</div>
+					<div class='goodsmiddleRightSeven clearfix'>
+						<span class='SevenLeft'>数量: </span>
+						<div class='SevenMiddle'>1</div>
+						<span class='SevenRight'>件</span>
+					</div>
+					<div class='goodsmiddleRightEight clearfix'>
+						<div class='EightLeft'>
+							<span>颜色&ensp; :</span>
+							<span>海军蓝</span><br>
+							<span>尺寸&ensp; :</span>
+							<span>请选择</span><br>
+							<span class='EightLeftMt'>计价&ensp; :</span>
+							<span class='EightLeftColor'>￥299</span><br>
+						</div>
+						<div class='EightRight'>
+							<a href="index.php?c=order"><button type="button" title="加入购物袋" class="btn-nocart" >加入购物袋</button></a>
+						</div>
+					</div>
+				</div>
+
+				<div class='goodsmiddleBottomTitle'> 
+					<ul>
+						<li>商品说明</li>
+						<li>支付信息</li>
+						<li>配送信息</li>
+					</ul>
+				</div>
+				<div class='goodsmiddleBottomComment'>
+					如果您购买过此商品,请 <a href="">点此评论</a>
+				</div>
+				<div class='goodsmiddleBottom'>
+					<div class='mainPictureContent'>
+						<div style='margin-top:30px'><img src="<?= HOME_IMG ?>1mainimg_1_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>1mainimg_2_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>1mainimg_3_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>3informationindex3_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>3" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>2017-05-21_163849" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_1_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_2_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_3_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_4_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_5_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_6_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>4alternativeviews_7_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>5laydownviews_2_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>6productdetails_1_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>6productdetails_2_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>6productdetails_3_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>6productdetails_4_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>6productdetails_5_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>8colordisplay_1_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>8colordisplay_2_1494827176" alt="" width='630px'></div>
+						<div><img src="<?= HOME_IMG ?>new_wash_statement" alt="" width='630px'></div>
+					</div>
+				</div>
+			</div>
+			<div class='goodsright'>
+				<div style='color:#000741'>
+					<span style='font-size:18px;font-weight: bold;border-bottom:1px solid #000741'>YOU</span>
+					<span style='font-size:13px;font-weight: bold;'>may</span>
+					<span style='font-size:13px;font-weight: bold;'>like...</span>
+					<p style='font-size:15px;border-top:1px solid #000741;font-weight: bold;'>你可能还喜欢</p>
+				</div>
+				<div class='RightPic'>
+					<ul>
+						<li><img src="<?= HOME_IMG ?>cn13199038_1" title="复古风弹力棉质水洗短裤" width='127px'></li>
+						<li><a href="detail.php" style='white-space: nowrap; overflow: hidden;  text-overflow:ellipsis;;font-size:13px'>复古风弹力棉质水洗短裤</a></li>
+						<li style='font-size:13px;color:#666A79;width:170px;'>￥299.00</li>
+						<li><img src="<?= HOME_IMG ?>1492408157_1" title="毛圈布冲浪刺绣图案短裤" width='127px' ></li>
+						<li ><a href="detail.php" style='white-space: nowrap; overflow: hidden;  text-overflow:ellipsis;;font-size:13px'>毛圈布冲浪刺绣图案短裤</a></li>
+						<li style='font-size:13px;color:#666A79;width:170px;'>￥199.00</li>
+						<li><img src="<?= HOME_IMG ?>dc75f51ebb1916fc59c02c069524ab70_1" title="舒适纯棉条纹做旧短裤" width='127px'></li>
+						<li><a href="detail.php" style='white-space: nowrap; overflow: hidden;  text-overflow:ellipsis;font-size:13px'>舒适纯棉条纹做旧短裤</a></li>
+						<li style='font-size:13px;color:#666A79;width:170px;'>￥299.00</li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+
+	<!-- 底部 -->
+	<center>
+		<div style='margin: 0 auto;'><img src="<?= HOME_IMG ?>footer"></div>
+	</center>
+	<div class='footer'>© 2017 Gap Inc.</div>
+</body>
+</html>

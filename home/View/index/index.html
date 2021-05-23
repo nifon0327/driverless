@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页-Gap中国官网</title>
+	<link rel="icon" href="<?= HOME_IMG ?>www.ico.la_5579b930862f6ab7cddca1127eee0503_40X40.ico">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>clearfix.css">
+	<link rel="stylesheet" href="<?= HOME_CSS ?>GapIndex.css">	
+	<style>
+		@font-face{font-family:'aaa' ;src: url('<?= HOME_FONT ?>/font_8po8pp7hsws1c3di/iconfont.ttf')}
+		.icoGap{width: 56px;height: 50px;background: url('<?= HOME_IMG ?>gap.png');margin-left:5px}
+		.icoON{width: 60px;height: 50px;background: url('<?= HOME_IMG ?>on.png');}
+		.icoON:hover{background:url('<?= HOME_IMG ?>on1.png')}
+		.headerLogin{width: 100px;height: 50px;background:url('<?= HOME_IMG ?>login.png');margin-left: 110px;position:relative;}
+		.headerLogin:hover{background:url('<?= HOME_IMG ?>login1.png')}
+		.headerNavPop{width: 710px;height: 800px;background: url('<?= HOME_IMG ?>170504popCN.jpg');z-index:100;margin: 0 auto;display:none;position:relative}
+		.mainNavLogo{background:url('<?= HOME_IMG ?>logo.gif') 0 0/70px 70px;width: 70px;height: 70px;float: left;margin-right:50px}
+		.mainBannerOne{width: 1200px;height: 520px;background: url('<?= HOME_IMG ?>170504_HERO_CN.jpg');}
+		.mainBannerTwo{width: 1200px;height: 855px;background: url('<?= HOME_IMG ?>170504_HP_feature11.jpg');}
+		.mainBannerThree{width: 1200px;height: 588px;background: url('<?= HOME_IMG ?>170504_HP_feature2.jpg');}
+		.mainBannerFour{width: 1200px;height: 406px;background: url('<?= HOME_IMG ?>170504_HP_New-arrivals.jpg');}
+		.mainBannerFive{width: 1200px;height: 364px;background: url('<?= HOME_IMG ?>170504_HP_feature4.jpg');}
+		.mainBannerSix{width: 1200px;height: 33px;background: url('<?= HOME_IMG ?>topcn.jpg');}
+		.mainBannerSeven{width: 1200px;height: 400px;background: url('<?= HOME_IMG ?>170504_HP_feature4-21.jpg');}
+		.mainBannerEight{width: 1200px;height: 545px;background: url('<?= HOME_IMG ?>170504_HP_feature5.jpg');}
+	</style>
+</head>
+<body>
+	<div class='header clearfix'>
+		<div class='headerMain clearfix'>
+			<div class='icoGap fl'></div>
+			<div class='icoON fl'></div>
+			<div class='shoppingList fr mlb mrs'>&#xe60a;</div>
+			<div class='headerLogin fr' id='btn3'>    <!-- 注册按钮 -->
+			<script>						//弹出下拉框
+	            // window.onload=function()
+	            // {
+	                btn3.onclick=function()
+	                {
+	                    div3.style.display =
+	                        !div3.style.display||div3.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+				<div class=headerLoginContent id='div3'>     <!-- 注册下拉框 -->
+					<div class='headerLoginContentButton'>
+						<?php if (!empty($_SESSION['customer']['tel'])): ?>
+						<a href="index.php?c=order"><?= $_SESSION['customer']['tel']?></a> | 
+						<a href="index.php?c=login&m=logout"> 退出 </a>
+						<?php else: ?>
+						<a href="index.php?c=user&m=register">注册</a> | <a href="index.php?c=login">登录</a>
+						
+						<?php endif ?> 
+					</div>
+					<hr width=90px align=center color=#ccc >
+					<ul>
+						<a href="index.php?c=order"><li>我的订单</li></a>
+						<li>帮助中心</li>
+						<li>在线客服</li>
+						<li>查找门店</li>
+					</ul>
+				</div>
+			</div>
+			<span class='headerMiddle fr tdl'> 查看详情</span> <span class='headerMiddle fr'>满RMB199免运费 | 正价商品退换货包邮&ensp; </span>					
+		</div>										<!-- 需加个超链接 -->
+		<div class='headerNav clearfix' id='btn1'>
+			<div class='headerNavPicture clearfix' >
+       		 <script>							//蓝条图片改变
+				function change_pic()
+				{
+					var imgObj = document.getElementById("pic1");
+					var Flag=(imgObj.getAttribute("src",2)=="<?= HOME_IMG ?>170504CNopen.jpg")
+					imgObj.src=Flag?"<?= HOME_IMG ?>170504CNclose.jpg":"<?= HOME_IMG ?>170504CNopen.jpg";
+				}
+			</script>
+				<img src="<?= HOME_IMG ?>170504CNopen.jpg" id='pic1' onClick="change_pic()">
+			</div>
+			<script>						//蓝条框点击出现
+	            // window.onload=function()
+	            // {
+	                btn1.onclick=function()
+	                {
+	                    div1.style.display =
+	                        !div1.style.display||div1.style.display=='none' ? 'block':'none';
+	                }
+	            // }
+       		 </script>
+			<div class='headerNavPop clearfix' id='div1'></div>
+		</div>
+	</div>
+	<div class='main clearfix'>
+		<div class='headerSearch clearfix'>
+			<div class='headSearchBorder' id='div2' >
+				<form action="">
+					<label><div class='headerSearchPic fr'>&#xe603;</div>
+					<input type="text" placeholder='请输入关键词' id='test'></label>
+				</form>
+			</div>
+			<script>
+	        		document.getElementById('test').onfocus=function() 
+	        	{
+		            document.getElementById('div2').style.outline='1px solid #A6C8FF';
+	        	};
+	        	document.getElementById('test').onblur=function() 
+	        	{
+		            document.getElementById('div2').style.outline='none';
+	        	};
+   			</script>
+		</div>
+		<div class='mainNav clearfix'>
+			<div class='mainNavLogo clearfix'></div>
+			<div class='mainNavBorder fl clearfix'>
+				<ul>
+					<a href="index.php"><li>首页</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>新品</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>孕妇装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男装</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>女孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>男孩</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>幼儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>婴儿</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>GapFit</li></a>
+					<li>|</li>
+					<a href="index.php?c=goods"><li>Sale</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class='mainborder clearfix'>
+			<div class='mainBannerOne mt clearfix'></div>
+			<div class='mainBannerTwo mt clearfix'></div>
+			<div class='mainBannerThree mt clearfix'></div>
+			<div class='mainBannerFour mt clearfix'></div>
+			<div class='mainBannerFive mt clearfix'></div>
+			<div class='mainBannerSix mt clearfix'></div>
+			<div class='mainBannerSeven mt clearfix'></div>
+			<div class='mainBannerEight mt clearfix'></div>
+			<div class='mainBannerNight mt clearfix'>
+				
+					<div class='mrm clearfix'>
+						<ul>
+							<li><img src="<?= HOME_IMG ?>footer1.jpg" width="280px" height="347px"></li>
+							<li><a href="index.php?c=goods" class='banneraOne'>经典丹宁　全新定义</a>`</li>
+							<li><a href="index.php?c=goods" class='banneratwo'>1969 经典丹宁系列，至酷版型，优选材质。以简约个性的姿态，唤醒整季时尚。</a></li>
+							<li><a href="index.php?c=goods" class='bannerathree'>女装&#9658;</a>　<a href="" class='bannerathree'>男装&#9658;</a></li>
+						</ul>
+					</div>
+					<div class='mrm clearfix'>
+						<ul>
+							<li><img src="<?= HOME_IMG ?>footer2.jpg" width="280px" height="347px"></li>
+							<li><a href="index.php?c=goods" class='banneraOne'>经典丹宁　全新定义</a>`</li>
+							<li><a href="index.php?c=goods" class='banneratwo'>1969 经典丹宁系列，至酷版型，优选材质。以简约个性的姿态，唤醒整季时尚。</a></li>
+							<li><a href="index.php?c=goods" class='bannerathree'>女装&#9658;</a>　<a href="" class='bannerathree'>男装&#9658;</a></li>
+						</ul>
+					</div>
+					<div class='mrm clearfix'>
+						<ul>
+							<li><img src="<?= HOME_IMG ?>footer3.jpg" width="280px" height="347px"></li>
+							<li><a href="index.php?c=goods" class='banneraOne'>经典丹宁　全新定义</a>`</li>
+							<li><a href="index.php?c=goods" class='banneratwo'>1969 经典丹宁系列，至酷版型，优选材质。以简约个性的姿态，唤醒整季时尚。</a></li>
+							<li><a href="index.php?c=goods" class='bannerathree'>女装&#9658;</a>　<a href="" class='bannerathree'>男装&#9658;</a></li>
+						</ul>
+					</div>
+					<div class='mrm clearfix'>
+						<ul>
+							<li><img src="<?= HOME_IMG ?>footer4.jpg" width="280px" height="347px"></li>
+							<li><a href="index.php?c=goods" class='banneraOne'>经典丹宁　全新定义</a>`</li>
+							<li><a href="index.php?c=goods" class='banneratwo'>1969 经典丹宁系列，至酷版型，优选材质。以简约个性的姿态，唤醒整季时尚。</a></li>
+							<li><a href="index.php?c=goods" class='bannerathree'>女装&#9658;</a>　<a href="" class='bannerathree'>男装&#9658;</a></li>
+						</ul>
+					</div>
+					
+			</div>
+		</div>
+	</div>
+
+	<center>
+		<div style='margin: 0 auto;'><img src="<?= HOME_IMG ?>/footer"></div>
+	</center>
+	<div class='footer'>© 2017 Gap Inc.</div>
+</body>
+</html>

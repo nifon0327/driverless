@@ -1,0 +1,73 @@
+			/* 新浪官网 样式初始化 */
+			body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+			body{background:#fff;color:#333;font-size:12px;font-family:font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;} 
+			 
+			ul,ol{list-style-type:none;} 
+			select,input,img,select{vertical-align:middle;} 
+			 
+			a{text-decoration:none;} 
+			a:link{color:#000741;} 
+			a:visited{color:#000741;} 
+			a:hover,a:active,a:focus{color:#000741;text-decoration:none;} 
+			div:hover{cursor:pointer;}
+			span:hover{cursor:text;}
+			.fl{float: left;}
+			.fr{float: right;}
+			.ma{margin:auto}
+			.mrs{margin-right:20px;}
+			.mrm{margin-right:20px;}
+			.mlb{margin-left: 110px;}
+			.mt{margin-top: 15px;}
+			.tdl{text-decoration:underline}
+			/* 顶部 */
+			.header{height: 100px;background-color: #F4F4F4;}
+			.headerMain{width: 1000px;height: 50px;margin: 0 auto;font-size:14px;color:#666666;}
+			.shoppingList{font-family:'aaa';font-size:30px;line-height:50px}
+			.headerLoginContent{width: 100px;height: 200px;	background-color: white;display:none;position:absolute;top:50px;z-index:50;}
+			.headerLoginContentButton{background-color: #000d42;color:white;border:1px solid #666;margin:10px auto;width:90px;height: 35x;text-align:center;display:block ;margin-bottom:10px}
+			.headerLoginContentButton a{font-family: arial, Verdana, 微软雅黑, "Microsoft YaHei", weiruanyahei, "Microsoft YaHei UI", Helvetica, sans-serif;font-size:13px;line-height:35px;text-indent:2em;color:white;}
+			.headerLoginContent li{font-size:13px; line-height:26px;text-align:center;margin-bottom:5px;margin-top:5px}
+			.headerMiddle{line-height:50px}
+			.headerNav{height: 50px;background:#AEC9E7;margin: 0 auto;}
+			.headerNavPicture{height: 50px;width: 960px;margin: 0 auto;vertical-align:middle;}
+			.headerNavPicture img{vertical-align:middle;}
+			.main{margin-top: 10px;}
+
+			.headerSearch{width: 1000px;height: 40px;margin:15px auto;position:relative}
+			.headSearchBorder{float: right;border:1px solid #A9A9A9;}
+			.headerSearch input{float:right;width: 170px;height: 40px;border:0px solid white;outline:none;}
+			.headerborder:focus{outline:1px solid #A6C8FF}
+			.headerSearchPic{font-family:'aaa';font-size:30px;float: right;line-height:40px;margin-right: 10px;}
+
+			.mainNav{width: 1000px;height: 70px;margin: 0 auto;position:relative}
+			.mainNavBorder{width: 880px;height: 70px;}
+			.mainNavBorder li{float: left;margin-right: 20px;color:#000741;line-height: 70px;font:bold 16px 微软雅黑;}
+			.mainborder{width: 1200px;margin:0 auto;margin-top: 50px;}
+			/* 注册 */
+			.mainReg{width: 1000px;margin: 30px auto;min-height:500px;}
+			.RegA{width: 1000px;height: 20px;line-height: 20px;}
+			.RegA a{color:black;font-weight:bold;font-size:15px}
+			.RegA a:hover{color:black;}
+			.regContent{border: 5px solid #7F7573;height: 550px;margin-top: 5px;}
+			.regContentHeader{background-color: #7F7573;height: 20px;line-height: 20px;color:white;font-weight:bold;font-size:15px;padding-left: 10px;}
+			.ContentType0{width: 920px;height: 30px;line-height: 30px;font-size:15px;color:#666666;margin: 5px auto;}
+			.ContentType1{margin:20px 85px 10px;height:1px;border-top:1px dotted #666;min-height:10px;width:820px;}
+			.ContentType2{width: 920px;height: 30px;line-height: 30px;margin:0 auto;margin-top: 10px;}
+			.ContentType2 .ContentType2Span1{width: 123px;height: 25px;padding: 0 15px;margin-bottom: 5px;text-align:right;display:block;float: left;font-size:14px;}
+			.ContentType2 input{width: 306px;height: 25px;margin-right: 10px;}
+			.ContentType2 .idCode{width: 153px;height: 25px;margin-right: 12px;}
+
+			.ContentType3{width: 920px;height: 46px;line-height: 46px;margin:20px auto 10px;}
+			.ContentType3 .ContentType2Span1{width: 123px;height: 25px;padding: 0 15px;margin-bottom: 5px;text-align:right;display:block;float: left;font-size:14px;}
+
+			.ContentType4{width: 920px;height: 83px;line-height: 30px;margin:0 auto 10px;}
+			.ContentType4 .ContentType2Span1{width: 123px;height: 25px;padding: 0 15px;margin-bottom: 5px;text-align:right;display:block;float: left;font-size:14px;}
+			.ContentType4 input{float: left;margin-top: 10px;}
+			.ContentType4Span2{width: 720px;height: 68px;display:block;float: left;line-height:30px}
+
+			.ContentType2 .regbutton{width: 60px;height: 30px;line-height:30px;background-color: #000d42;color:white;}
+			.ContentType2 .regbutton:hover{background-color: #BF163D;}
+
+
+			/* 底部 */
+			.footer{height: 50px;background-color: #F4F4F4;margin-top: 30px;text-align:center}
